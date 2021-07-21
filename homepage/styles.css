@@ -1,0 +1,129 @@
+body .sub_section1{
+    background-color : rgb(255, 255, 255);
+    scroll-behavior: smooth;
+}
+
+
+.main_section{    
+    background-color : #000;
+    color: #fff;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    text-align: center;
+    
+}  
+.sub_section{
+    background-color : #b67d7d8c;
+    color: #000;
+    text-align: left;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    border-radius: 2.5rem;
+}
+
+.sub_section :hover{
+    color: rgb(189, 184, 184);
+    transition: ease-in-out= 1.75s;
+}
+
+/* global Font */
+#main{
+    font-family: 'Marcellus SC', serif;
+}
+
+
+#h2 {
+    font-weight: bold;
+}
+#h3 {
+    font-weight: bold;
+}
+#pr{
+    font-weight: bold;
+    font-stretch: semi-expanded;
+}
+
+#face:hover{
+    color: rgb(14, 90, 177);
+    transition: ease-in-out= 1.75s;
+}
+
+#tw:hover{
+    color: rgb(120, 181, 250);
+    transition: ease-in-out= 1.75s;
+}
+
+#in:hover{
+    color: rgb(241, 30, 30);
+    transition: ease-in-out= 1.75s;
+}
+
+h4{
+    font-weight: lighter;
+}
+.R{
+    size: 200px;
+    /*border: 1px solid transparent;*/
+    border-radius: 2.5rem;
+}
+
+button, input[type="submit"]{
+    background-color: #000;
+    color: aliceblue;
+    border-radius: 2.5rem;
+    height: 50px;
+    width: 130px;
+    
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 15px;
+}
+input[type="text"] {
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+    border-color: black;
+    line-height: 1.5;
+    height: 50px;
+    width: 20%;
+
+}
+
+button:hover{
+    background-color :rgb(255, 255, 255);
+    color: black;
+    transition: ease-in-out;
+    transition: 0.5s;
+}
+
+#back{
+    direction: ltr;
+}
+.credits{
+    position: bottom;
+    text-align: center;
+    font-size: 10px;
+    
+}
+.Q{
+    size: 20mm;
+}
+#Q {
+    font-size: 25px;
+}
+
+#S{
+    text-align: center;
+    align-items: center;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+    background-color: transparent;
+}
+a :hover{
+    color: rgb(95, 166, 248);
+    transition: ease-in-out= 1.75s;
+}
+#list{
+    color: #000;
+}
