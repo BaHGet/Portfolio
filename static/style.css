@@ -1,31 +1,62 @@
 /* For Mobile Uesers */
 @media only screen and (min-width: 100px) and (max-width: 770px) { 
+    html {
+        width:408px;
+    }
+    
+    @keyframes slide {
+        from {opacity: 0;}
+        50%{opacity: 0.5;}
+        to {opacity: 1;}
+    }
     body{
         background-color: black;
+        width: 408px;
+        animation-name: slide;
+        animation-duration: 1s;
+        animation-timing-function:ease-out;
+    }
+    a{
+        text-decoration: none;
+    }
+    a:link{
+        color: blue;
+    }
+    a:visited{
+        color:red;
     }
     /* Container One */
 
     div.container_one{
         height: 500px;
     }
-
+    @keyframes h {
+        from{opacity: 0;}
+        to{opacity: 1;}
+    }
     h1.cont1{
-       
+        animation-name: h;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
         color: white;
         font-size: 25px;
         text-align: center;
         margin-top: 20px;
         font-family: 'Roboto Mono', monospace;
+        margin-left: -30px;
     }
     h2.cont1{
         position: absolute;
         color: white;
         font-size: 25px;
-        margin-left: 62px;
+        margin-left: 60px;
         text-align: center;
         margin-top: 350px;
         font-weight: lighter;
         font-family: 'Zen Tokyo Zoo', cursive;
+        animation-name: h;
+        animation-duration: 3.5s;
+        animation-timing-function: ease-in-out;
     }
     img.cont1{
         width: 325px;
@@ -34,15 +65,209 @@
         left: 0px;
         top: 0px;
         z-index: -1;
-    
+        
+    }
+    @keyframes img {
+        from{margin-left:0px;opacity: 0;}
+        50%{opacity: 0.5;}
+        to{margin-left:50px;opacity: 1;}
     }
     
     /* Container Two */
-    
+    div.container_two{height: 800px;}
     h1.cont2{
         font-size:40px;
         font-family: 'Roboto Mono', monospace;
         color: white;
+    }
+    h2{
+        font-size:16px;
+    }
+    img.cont2_Ae{
+        position: absolute;
+        width: 150px;
+        height: 150px;
+    }
+    img.cont2_pr{
+        position: absolute;
+        margin-left:160px;
+        margin-top:0px;
+        width: 150px;
+        height: 150px;
+    }
+    img.cont2_Ai{
+        position: absolute;
+        margin-left:87px;
+        margin-top:141px;
+        width: 150px;
+        height: 150px;
+    }
+    img.cont2_Ps{
+        position: absolute;
+        margin-left:0px;
+        margin-top:276px;
+        width: 150px;
+        height: 150px;
+    }
+    img.cont2_Xd{
+        position: absolute;
+        margin-left:175px;
+        margin-top:276px;
+        width: 150px;
+        height: 150px;
+    }
+    h2.cont2_Ae{
+        position: absolute;
+        margin-top: 150px;
+        margin-left: 63px;
+    }
+    h2.cont2_pr{
+        position: absolute;
+        margin-top: 151px;
+        margin-left: 227px;
+    }
+    h2.cont2_Ai{
+        position: absolute;
+        margin-top: 293px;
+        margin-left: 155px;
+    }
+    h2.cont2_Ps{
+        position: absolute;
+        margin-top: 426px;
+        margin-left: 63px;
+    }
+    h2.cont2_Xd{
+        position: absolute;
+        margin-top: 426px;
+        margin-left: 240px;
+    }
+
+    /* HTML */
+    img.cont2_h{
+        position: absolute;
+    }
+
+    /* CSS */
+    img.cont2_cs{
+        position: absolute;
+        margin-top:0px;
+        margin-left: 125px;
+    }
+
+    /* JavaScript */
+    img.cont2_j{
+        margin-top:0px;
+        margin-left: 253px;
+        position: absolute;
+    }
+
+    /* Python */
+    img.cont2_p{
+        margin-top:70px;
+        margin-left: 28px;
+        position: absolute;
+    }
+
+    /* SQl */
+    img.cont2_s{
+        margin-top:70px;
+        margin-left: 232px;
+        position: absolute;
+    }
+
+    /* Container Three */
+    div.container_three{width: 500px;}
+    h1.cont3{
+        color: white;
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    img.cont3_bio{
+        width: 290px;
+        height: 180px;
+        margin-left: 30px;
+    }
+    h1.cont3_bio{
+        color:white;
+        font-family: 'Roboto Mono', monospace;
+        margin-left: 95px;
+        margin-top: -3px;
+    }
+
+    img.cont3_home{
+        width: 290px;
+        height: 180px;
+        margin-left: 30px;
+        margin-top:235px;
+    }
+    h1.cont3_home{
+        color:white;
+        font-family: 'Roboto Mono', monospace;
+        margin-left: 95px;
+        margin-top: -3px;
+    }
+    /* Container Four */
+    div.container_four{
+        position:absolute;
+        margin-top: 98px;
+        width: 50px;
+        height: 80px;
+    }
+
+    h1.cont4{
+        color:white;
+        font-size: 20px;
+        margin-top: 200px;
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    /* FaceBook */
+    img.facebook{
+        margin-top: -11px;
+    }
+    h1.soc1{
+        margin-left:109px;
+        color:white;
+        font-size: 30px;
+        font-weight: lighter;
+        font-family: 'Zen Tokyo Zoo', cursive;
+    }
+    /* Twitter */
+    img.twitter{
+        margin-top: -10px;
+    }
+    h1.soc2{
+        margin-left:109px;
+        margin-top: 28px;
+        color:white;
+        font-size: 40px;
+        font-weight: lighter;
+        font-family: 'Zen Tokyo Zoo', cursive;
+    }
+    /* Instagram */
+    img.instagram{
+        margin-top: 6px;
+    }
+    h1.soc3{
+        margin-left:109px;
+        margin-top: 59px;
+        color:white;
+        font-size: 35px;
+        font-weight: lighter;
+        font-family: 'Zen Tokyo Zoo', cursive;
+        cursor: unset;
+    }
+    /* Youtube */
+    img.youtube{
+        margin-top: 2px;
+    }
+    h1.soc4{
+        margin-left:123px;
+        margin-top: 37px;
+        color:white;
+        font-size: 30px;
+        font-weight: lighter;
+        font-family: 'Zen Tokyo Zoo', cursive;
     }
 }
 /* For Desktop Uesers */
@@ -64,12 +289,22 @@
         color:red;
     }
     /* Container One */
-    div.container_one{height: 1000px;}
+    div.container_one{
+        height: 1000px;
+        margin-top:120px;
+    }
 
     hr{
         opacity: 0;
     }
-    h1.cont1{
+    @keyframes h {
+        from{margin-left: 700px;}
+        to{margin-left: 600px;}
+    }
+    h1.cont1{   
+        animation-name: h;
+        animation-duration: 3s;
+        animation-timing-function: ease-in-out;
         position: absolute;
         color: white;
         font-size: 100px;
@@ -83,6 +318,7 @@
         
     }
     h1.cont1:hover{
+        
         transform:translateX(10px);
         opacity: 100%;
         transition: ease-in-out;
@@ -90,6 +326,9 @@
     }
 
     h2.cont1{
+        animation-name: h;
+        animation-duration: 3.5s;
+        animation-timing-function: ease-in-out;
         position: absolute;
         color: white;
         z-index: 0;
@@ -110,12 +349,14 @@
         transition: all 0.5s;
     }
     img.cont1{
-        transform:translateX(90px);
         width: 670px;
         height:700px;
-        margin-left:-80px;
-        z-index: 2;
+        margin-left:50px;
+        z-index: 1;
         opacity: 1;
+        animation-name: img;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
         transition: ease-in-out;
         transition: all 0.5s;
     }
@@ -125,23 +366,36 @@
         transition: ease-in-out;
         transition: all 0.5s;
     }
+    @keyframes img {
+        from{margin-left:0px;opacity: 0;}
+        50%{opacity: 0.5;}
+        to{margin-left:50px;opacity: 1;}
+    }
     
     /* Container Two */
 
     div.container_two{
         scroll-snap-type: y mandatory;
-        
         height: 890px;
+        animation-name: slide;
+        animation-duration: 5s;
+        animation-timing-function:ease-out;
     }
-    
+
     h1.cont2{
+        
         scroll-snap-align: start;
         font-size:600%;
         font-family: 'Roboto Mono', monospace;
         color: white;
+
         
     }
-
+    @keyframes slide {
+        from {opacity: 0;}
+        50%{opacity: 0.5;}
+        to {opacity: 1;}
+    }
     img.cont2_Ae{
         width:120px;
         height:120px;
@@ -258,56 +512,35 @@
         margin-top: 28px;
     }
 
-    h2.cont2_h{
-        position: relative;
-        margin-top: 90px;
-        margin-left: 35px;
-    }    
-    h2.cont2_cs{
-        position: relative;
-        margin-top: 110px;
-        margin-left: 190px;
-    }    
-    h2.cont2_j{
-        position: relative;
-        margin-top: 110px;
-        margin-left: 348px;
-    }    
-    h2.cont2_p{
-        position: relative;
-        margin-top: 110px;
-        margin-left: 475px;
-    }    
-    h2.cont2_s{
-        position: relative;
-        margin-top: 110px;
-        margin-left: 635px;
-    }    
-
-
-    span.cont2_j{
-        position: absolute;
-        margin-top: -160px;
+    div{
+        margin-top:-300px;
     }
+   
     span.cont2_cs{
         position: absolute;
-        margin-top: -160px;
+        margin-top: -40px;
     }
     span.cont2_j{
         position: absolute;
-        margin-top: -160px;
+        margin-top: -40px;
     }
     span.cont2_p{
         position: absolute;
-        margin-top: -160px;
+        margin-top: -40px;
     }
     span.cont2_s{
         position: absolute;
-        margin-top: -160px;
+        margin-top: -40px;
     }
 
     /* Container Three */
-    div.container_three{scroll-snap-align: start ; height: 400px;}
+    div.container_three{
+        scroll-snap-align: start ;
+        height: 400px;
+        animation-name: slide;
+        animation-duration: 5s;
+        animation-timing-function:ease-out;
+    }
 
     h1.cont3{
         color: white;
@@ -359,8 +592,14 @@
         margin-top: 210px;
     }
 
-    /* Container Three */
-    div.container_four{scroll-snap-align: start ; height: 400px;}
+    /* Container Four */
+    div.container_four{
+        scroll-snap-align: start ;
+        height: 400px;
+        animation-name: slide;
+        animation-duration: 5s;
+        animation-timing-function:ease-out;
+    }
     h1.cont4{
         color: white;
         font-size:500%;
@@ -368,40 +607,56 @@
         color: white;
     }
 
-    img.facebook{
-        border: none;
-    }
+    
 
-    img.facebook:hover{ 
-        border-radius:100rem;
-        border-width: 1px;
-        box-shadow: 0px 0px 50px 20px rgb(3, 104, 255);
-        transition: ease-in-out;
-        transition: all 1s;
+    /* FaceBook */
+    img.facebook{
+        margin-top: -11px;
     }
-    
-    img.twitter:hover{ 
-        border-radius:100rem;
-        border-width: 0px;
-        box-shadow: 0px 0px 50px 20px rgb(0, 183, 255);
-        transition: ease-in-out;
-        transition: all 1s;
+    h1.soc1{
+        margin-left:109px;
+        margin-top: 75px;
+        color:white;
+        font-size: 30px;
+        font-weight: lighter;
+        font-family: 'Zen Tokyo Zoo', cursive;
     }
-    
-    img.instagram:hover{ 
-        border-radius:100rem;
-        border-width: 1px;
-        box-shadow: 0px 0px 50px 20px rgb(226, 0, 158);
-        transition: ease-in-out;
-        transition: all 1s;
+    /* Twitter */
+    img.twitter{
+        margin-top: 30px;
     }
-    
-    img.youtube:hover{ 
-        border-radius:100rem;
-        border-width: 1px;
-        box-shadow: 0px 0px 50px 20px rgb(255, 0, 0);
-        transition: ease-in-out;
-        transition: all 1s;
+    h1.soc2{
+        margin-left:109px;
+        margin-top: 65px;
+        color:white;
+        font-size: 40px;
+        font-weight: lighter;
+        font-family: 'Zen Tokyo Zoo', cursive;
+    }
+    /* Instagram */
+    img.instagram{
+        margin-top: 50px;
+    }
+    h1.soc3{
+        margin-left:109px;
+        margin-top: 100px;
+        color:white;
+        font-size: 35px;
+        font-weight: lighter;
+        font-family: 'Zen Tokyo Zoo', cursive;
+        cursor: unset;
+    }
+    /* Youtube */
+    img.youtube{
+        margin-top: 50px;
+    }
+    h1.soc4{
+        margin-left:109px;
+        margin-top: 100px;
+        color:white;
+        font-size: 30px;
+        font-weight: lighter;
+        font-family: 'Zen Tokyo Zoo', cursive;
     }
 
     /* scroll bar style */
