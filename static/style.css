@@ -362,7 +362,7 @@
     }
     img.cont1:hover{
         transform:translateX(-1px);
-        opacity: 50%;
+        opacity: 150%;
         transition: ease-in-out;
         transition: all 0.5s;
     }
