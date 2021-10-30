@@ -1,678 +1,709 @@
 /* For Mobile Uesers */
-@media only screen and (min-width: 100px) and (max-width: 770px) { 
-    html {
-        width:408px;
-    }
-    
-    @keyframes slide {
-        from {opacity: 0;}
-        50%{opacity: 0.5;}
-        to {opacity: 1;}
-    }
-    body{
-        background-color: black;
-        width: 408px;
-        animation-name: slide;
-        animation-duration: 1s;
-        animation-timing-function:ease-out;
-    }
-    a{
-        text-decoration: none;
-    }
-    a:link{
-        color: blue;
-    }
-    a:visited{
-        color:red;
-    }
-    /* Container One */
+@media only screen and (min-width: 100px) and (max-width: 770px) {
+  /* html {
+    width: 408px;
+  } */
 
-    div.container_one{
-        height: 500px;
+  @keyframes slide {
+    from {
+      opacity: 0;
     }
-    @keyframes h {
-        from{opacity: 0;}
-        to{opacity: 1;}
+    50% {
+      opacity: 0.5;
     }
-    h1.cont1{
-        animation-name: h;
-        animation-duration: 1s;
-        animation-timing-function: ease-in-out;
-        color: white;
-        font-size: 25px;
-        text-align: center;
-        margin-top: 20px;
-        font-family: 'Roboto Mono', monospace;
-        margin-left: -30px;
+    to {
+      opacity: 1;
     }
-    h2.cont1{
-        position: absolute;
-        color: white;
-        font-size: 25px;
-        margin-left: 60px;
-        text-align: center;
-        margin-top: 350px;
-        font-weight: lighter;
-        font-family: 'Zen Tokyo Zoo', cursive;
-        animation-name: h;
-        animation-duration: 3.5s;
-        animation-timing-function: ease-in-out;
-    }
-    img.cont1{
-        width: 325px;
-        height:350px;
-        margin-left: 20px;
-        left: 0px;
-        top: 0px;
-        z-index: -1;
-        
-    }
-    @keyframes img {
-        from{margin-left:0px;opacity: 0;}
-        50%{opacity: 0.5;}
-        to{margin-left:50px;opacity: 1;}
-    }
-    
-    /* Container Two */
-    div.container_two{height: 800px;}
-    h1.cont2{
-        font-size:40px;
-        font-family: 'Roboto Mono', monospace;
-        color: white;
-    }
-    h2{
-        font-size:16px;
-    }
-    img.cont2_Ae{
-        position: absolute;
-        width: 150px;
-        height: 150px;
-    }
-    img.cont2_pr{
-        position: absolute;
-        margin-left:160px;
-        margin-top:0px;
-        width: 150px;
-        height: 150px;
-    }
-    img.cont2_Ai{
-        position: absolute;
-        margin-left:87px;
-        margin-top:141px;
-        width: 150px;
-        height: 150px;
-    }
-    img.cont2_Ps{
-        position: absolute;
-        margin-left:0px;
-        margin-top:276px;
-        width: 150px;
-        height: 150px;
-    }
-    img.cont2_Xd{
-        position: absolute;
-        margin-left:175px;
-        margin-top:276px;
-        width: 150px;
-        height: 150px;
-    }
-    h2.cont2_Ae{
-        position: absolute;
-        margin-top: 150px;
-        margin-left: 63px;
-    }
-    h2.cont2_pr{
-        position: absolute;
-        margin-top: 151px;
-        margin-left: 227px;
-    }
-    h2.cont2_Ai{
-        position: absolute;
-        margin-top: 293px;
-        margin-left: 155px;
-    }
-    h2.cont2_Ps{
-        position: absolute;
-        margin-top: 426px;
-        margin-left: 63px;
-    }
-    h2.cont2_Xd{
-        position: absolute;
-        margin-top: 426px;
-        margin-left: 240px;
-    }
+  }
+  body {
+    background-color: black;
+    /* width: 408px; */
+    animation-name: slide;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:link {
+    color: blue;
+  }
+  a:visited {
+    color: red;
+  }
+  /* Container One */
 
-    /* HTML */
-    img.cont2_h{
-        position: absolute;
+  div.container_one {
+    height: 500px;
+  }
+  @keyframes h {
+    from {
+      opacity: 0;
     }
+    to {
+      opacity: 1;
+    }
+  }
+  h1.cont1 {
+    animation-name: h;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Roboto Mono", monospace;
+    margin-left: -30px;
+  }
+  h2.cont1 {
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    margin-left: 60px;
+    text-align: center;
+    margin-top: 350px;
+    font-weight: lighter;
+    font-family: "Zen Tokyo Zoo", cursive;
+    animation-name: h;
+    animation-duration: 3.5s;
+    animation-timing-function: ease-in-out;
+  }
+  img.cont1 {
+    width: 325px;
+    height: 350px;
+    margin-left: 20px;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+  }
+  @keyframes img {
+    from {
+      margin-left: 0px;
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    to {
+      margin-left: 50px;
+      opacity: 1;
+    }
+  }
 
-    /* CSS */
-    img.cont2_cs{
-        position: absolute;
-        margin-top:0px;
-        margin-left: 125px;
-    }
+  /* Container Two */
+  div.container_two {
+    height: 800px;
+  }
+  h1.cont2 {
+    font-size: 40px;
+    font-family: "Roboto Mono", monospace;
+    color: white;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  img.cont2_Ae {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+  }
+  img.cont2_pr {
+    position: absolute;
+    margin-left: 229px;
+    margin-top: 0px;
+    width: 150px;
+    height: 150px;
+  }
+  img.cont2_Ai {
+    position: absolute;
+    margin-left: 114px;
+    margin-top: 141px;
+    width: 150px;
+    height: 150px;
+  }
+  img.cont2_Ps {
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 276px;
+    width: 150px;
+    height: 150px;
+  }
+  img.cont2_Xd {
+    position: absolute;
+    margin-left: 229px;
+    margin-top: 276px;
+    width: 150px;
+    height: 150px;
+  }
+  h2.cont2_Ae {
+    position: absolute;
+    margin-top: 163px;
+    margin-left: 63px;
+  }
+  h2.cont2_pr {
+    position: absolute;
+    margin-top: 163px;
+    margin-left: 296px;
+  }
+  h2.cont2_Ai {
+    position: absolute;
+    margin-top: 293px;
+    margin-left: 178px;
+  }
+  h2.cont2_Ps {
+    position: absolute;
+    margin-top: 426px;
+    margin-left: 63px;
+  }
+  h2.cont2_Xd {
+    position: absolute;
+    margin-top: 426px;
+    margin-left: 240px;
+  }
 
-    /* JavaScript */
-    img.cont2_j{
-        margin-top:0px;
-        margin-left: 253px;
-        position: absolute;
-    }
+  /* HTML */
+  img.cont2_h {
+    position: absolute;
+  }
 
-    /* Python */
-    img.cont2_p{
-        margin-top:70px;
-        margin-left: 28px;
-        position: absolute;
-    }
+  /* CSS */
+  img.cont2_cs {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 125px;
+  }
 
-    /* SQl */
-    img.cont2_s{
-        margin-top:70px;
-        margin-left: 232px;
-        position: absolute;
-    }
+  /* JavaScript */
+  img.cont2_j {
+    margin-top: 0px;
+    margin-left: 253px;
+    position: absolute;
+  }
 
-    /* Container Three */
-    div.container_three{width: 500px;}
-    h1.cont3{
-        color: white;
-        font-family: 'Roboto Mono', monospace;
-    }
+  /* Python */
+  img.cont2_p {
+    margin-top: 70px;
+    margin-left: 28px;
+    position: absolute;
+  }
 
-    img.cont3_bio{
-        width: 290px;
-        height: 180px;
-        margin-left: 30px;
-    }
-    h1.cont3_bio{
-        color:white;
-        font-family: 'Roboto Mono', monospace;
-        margin-left: 95px;
-        margin-top: -3px;
-    }
+  /* SQl */
+  img.cont2_s {
+    margin-top: 70px;
+    margin-left: 232px;
+    position: absolute;
+  }
 
-    img.cont3_home{
-        width: 290px;
-        height: 180px;
-        margin-left: 30px;
-        margin-top:235px;
-    }
-    h1.cont3_home{
-        color:white;
-        font-family: 'Roboto Mono', monospace;
-        margin-left: 95px;
-        margin-top: -3px;
-    }
-    /* Container Four */
-    div.container_four{
-        position:absolute;
-        margin-top: 98px;
-        width: 50px;
-        height: 80px;
-    }
+  /* Container Three */
+  div.container_three {
+    /* width: 500px; */
+  }
+  h1.cont3 {
+    color: white;
+    font-family: "Roboto Mono", monospace;
+  }
 
-    h1.cont4{
-        color:white;
-        font-size: 20px;
-        margin-top: 200px;
-        font-family: 'Roboto Mono', monospace;
-    }
+  img.cont3_bio {
+    width: 290px;
+    height: 180px;
+    margin-left: 30px;
+  }
+  h1.cont3_bio {
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    margin-left: 95px;
+    margin-top: -3px;
+  }
 
-    /* FaceBook */
-    img.facebook{
-        margin-top: -11px;
-    }
-    h1.soc1{
-        margin-left:109px;
-        color:white;
-        font-size: 30px;
-        font-weight: lighter;
-        font-family: 'Zen Tokyo Zoo', cursive;
-    }
-    /* Twitter */
-    img.twitter{
-        margin-top: -10px;
-    }
-    h1.soc2{
-        margin-left:109px;
-        margin-top: 28px;
-        color:white;
-        font-size: 40px;
-        font-weight: lighter;
-        font-family: 'Zen Tokyo Zoo', cursive;
-    }
-    /* Instagram */
-    img.instagram{
-        margin-top: 6px;
-    }
-    h1.soc3{
-        margin-left:109px;
-        margin-top: 59px;
-        color:white;
-        font-size: 35px;
-        font-weight: lighter;
-        font-family: 'Zen Tokyo Zoo', cursive;
-        cursor: unset;
-    }
-    /* Youtube */
-    img.youtube{
-        margin-top: 2px;
-    }
-    h1.soc4{
-        margin-left:123px;
-        margin-top: 37px;
-        color:white;
-        font-size: 30px;
-        font-weight: lighter;
-        font-family: 'Zen Tokyo Zoo', cursive;
-    }
+  img.cont3_home {
+    width: 290px;
+    height: 180px;
+    margin-left: 30px;
+    margin-top: 235px;
+  }
+  h1.cont3_home {
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    margin-left: 95px;
+    margin-top: -3px;
+  }
+  /* Container Four */
+  div.container_four {
+    position: absolute;
+    margin-top: 98px;
+    width: 50px;
+    height: 80px;
+  }
+
+  h1.cont4 {
+    color: white;
+    font-size: 20px;
+    margin-top: 200px;
+    font-family: "Roboto Mono", monospace;
+  }
+
+  /* FaceBook */
+  img.facebook {
+    margin-top: -11px;
+  }
+  h1.soc1 {
+    margin-left: 109px;
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: "Zen Tokyo Zoo", cursive;
+  }
+  /* Twitter */
+  img.twitter {
+    margin-top: -10px;
+  }
+  h1.soc2 {
+    margin-left: 109px;
+    margin-top: 28px;
+    color: white;
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: "Zen Tokyo Zoo", cursive;
+  }
+  /* Instagram */
+  img.instagram {
+    margin-top: 6px;
+  }
+  h1.soc3 {
+    margin-left: 109px;
+    margin-top: 59px;
+    color: white;
+    font-size: 35px;
+    font-weight: lighter;
+    font-family: "Zen Tokyo Zoo", cursive;
+    cursor: unset;
+  }
+  /* Youtube */
+  img.youtube {
+    margin-top: 2px;
+  }
+  h1.soc4 {
+    margin-left: 123px;
+    margin-top: 37px;
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: "Zen Tokyo Zoo", cursive;
+  }
 }
 /* For Desktop Uesers */
-@media only screen and (min-width: 771px){ 
-    body{
-        scroll-behavior: smooth;
-        background-color: BLACK;
-        opacity: 1;
-        transition: opacity(0,1);
-        transition: all 25ms;
-    }
-    a{
-        text-decoration: none;
-    }
-    a:link{
-        color: blue;
-    }
-    a:visited{
-        color:red;
-    }
-    /* Container One */
-    div.container_one{
-        height: 1000px;
-        margin-top:120px;
-    }
+@media only screen and (min-width: 771px) {
+  body {
+    scroll-behavior: smooth;
+    background-color: BLACK;
+    opacity: 1;
+    transition: opacity(0, 1);
+    transition: all 25ms;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:link {
+    color: blue;
+  }
+  a:visited {
+    color: red;
+  }
+  /* Container One */
+  div.container_one {
+    height: 1000px;
+    margin-top: 120px;
+  }
 
-    hr{
-        opacity: 0;
+  hr {
+    opacity: 0;
+  }
+  @keyframes h {
+    from {
+      margin-left: 700px;
     }
-    @keyframes h {
-        from{margin-left: 700px;}
-        to{margin-left: 600px;}
+    to {
+      margin-left: 600px;
     }
-    h1.cont1{   
-        animation-name: h;
-        animation-duration: 3s;
-        animation-timing-function: ease-in-out;
-        position: absolute;
-        color: white;
-        font-size: 100px;
-        margin-left: 600px;
-        margin-top: 300px;
-        font-family: 'Roboto Mono', monospace;
-        opacity: 50%;
-        z-index:0;
-        transition: ease-in-out;
-        transition: all 0.5s;
-        
-    }
-    h1.cont1:hover{
-        
-        transform:translateX(10px);
-        opacity: 100%;
-        transition: ease-in-out;
-        transition: all 0.5s;
-    }
+  }
+  h1.cont1 {
+    animation-name: h;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    position: absolute;
+    color: white;
+    font-size: 100px;
+    margin-left: 600px;
+    margin-top: 300px;
+    font-family: "Roboto Mono", monospace;
+    opacity: 50%;
+    z-index: 0;
+    transition: ease-in-out;
+    transition: all 0.5s;
+  }
+  h1.cont1:hover {
+    transform: translateX(10px);
+    opacity: 100%;
+    transition: ease-in-out;
+    transition: all 0.5s;
+  }
 
-    h2.cont1{
-        animation-name: h;
-        animation-duration: 3.5s;
-        animation-timing-function: ease-in-out;
-        position: absolute;
-        color: white;
-        z-index: 0;
-        font-size: 80px;
-        margin-left: 600px;
-        margin-top: 425px;
-        font-weight: lighter;
-        font-family: 'Zen Tokyo Zoo', cursive;
-        opacity: 50%;
-        transition: ease-in-out;
-        transition: all 0.5s;
+  h2.cont1 {
+    animation-name: h;
+    animation-duration: 3.5s;
+    animation-timing-function: ease-in-out;
+    position: absolute;
+    color: white;
+    z-index: 0;
+    font-size: 80px;
+    margin-left: 600px;
+    margin-top: 425px;
+    font-weight: lighter;
+    font-family: "Zen Tokyo Zoo", cursive;
+    opacity: 50%;
+    transition: ease-in-out;
+    transition: all 0.5s;
+  }
+  h2.cont1:hover {
+    text-shadow: 1px 0.5px #b4b3b3;
+    transform: translateX(10px);
+    opacity: 1;
+    transition: ease-in-out;
+    transition: all 0.5s;
+  }
+  img.cont1 {
+    width: 670px;
+    height: 700px;
+    margin-left: 50px;
+    z-index: 1;
+    opacity: 1;
+    animation-name: img;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    transition: ease-in-out;
+    transition: all 0.5s;
+  }
+  img.cont1:hover {
+    transform: translateX(-1px);
+    opacity: 150%;
+    transition: ease-in-out;
+    transition: all 0.5s;
+  }
+  @keyframes img {
+    from {
+      margin-left: 0px;
+      opacity: 0;
     }
-    h2.cont1:hover{
-        text-shadow: 1px 0.5px #b4b3b3;
-        transform:translateX(10px);
-        opacity: 1;
-        transition: ease-in-out;
-        transition: all 0.5s;
+    50% {
+      opacity: 0.5;
     }
-    img.cont1{
-        width: 670px;
-        height:700px;
-        margin-left:50px;
-        z-index: 1;
-        opacity: 1;
-        animation-name: img;
-        animation-duration: 1s;
-        animation-timing-function: ease-in-out;
-        transition: ease-in-out;
-        transition: all 0.5s;
+    to {
+      margin-left: 50px;
+      opacity: 1;
     }
-    img.cont1:hover{
-        transform:translateX(-1px);
-        opacity: 150%;
-        transition: ease-in-out;
-        transition: all 0.5s;
-    }
-    @keyframes img {
-        from{margin-left:0px;opacity: 0;}
-        50%{opacity: 0.5;}
-        to{margin-left:50px;opacity: 1;}
-    }
-    
-    /* Container Two */
+  }
 
-    div.container_two{
-        scroll-snap-type: y mandatory;
-        height: 890px;
-        animation-name: slide;
-        animation-duration: 5s;
-        animation-timing-function:ease-out;
-    }
+  /* Container Two */
 
-    h1.cont2{
-        
-        scroll-snap-align: start;
-        font-size:600%;
-        font-family: 'Roboto Mono', monospace;
-        color: white;
+  div.container_two {
+    scroll-snap-type: y mandatory;
+    height: 890px;
+    animation-name: slide;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+  }
 
-        
+  h1.cont2 {
+    scroll-snap-align: start;
+    font-size: 600%;
+    font-family: "Roboto Mono", monospace;
+    color: white;
+  }
+  @keyframes slide {
+    from {
+      opacity: 0;
     }
-    @keyframes slide {
-        from {opacity: 0;}
-        50%{opacity: 0.5;}
-        to {opacity: 1;}
+    50% {
+      opacity: 0.5;
     }
-    img.cont2_Ae{
-        width:120px;
-        height:120px;
-        position: absolute;
-        z-index: -1;
-        margin-left:0px;
+    to {
+      opacity: 1;
     }
-    img.cont2_pr{
-        width:120px;
-        height:120px;
-        position: absolute;
-        z-index: -1;
-        margin-left:150px;
-    }
-    img.cont2_Ai{
-        width:120px;
-        height:120px;
-        position: absolute;
-        z-index: -1;
-        margin-left:300px;
-    }
-    img.cont2_Ps{
-        width:120px;
-        height:120px;
-        position: absolute;
-        z-index: -1;
-        margin-left:450px;
-    }
-    img.cont2_Xd{
-        width:120px;
-        height:120px;
-        position: absolute;
-        z-index: -1;
-        margin-left:600px;
-    }
+  }
+  img.cont2_Ae {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    z-index: -1;
+    margin-left: 0px;
+  }
+  img.cont2_pr {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    z-index: -1;
+    margin-left: 150px;
+  }
+  img.cont2_Ai {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    z-index: -1;
+    margin-left: 300px;
+  }
+  img.cont2_Ps {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    z-index: -1;
+    margin-left: 450px;
+  }
+  img.cont2_Xd {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    z-index: -1;
+    margin-left: 600px;
+  }
 
-    h2.cont2_Ae{
-        margin-top: 140px;
-        margin-left: 45px;
-    }    
-    h2.cont2_pr{
-        margin-top: 120px;
-        margin-left: 200px;
-    }    
-    h2.cont2_Ai{
-        margin-top: 120px;
-        margin-left: 348px;
-    }    
-    h2.cont2_Ps{
-        margin-top: 120px;
-        margin-left: 498px;
-    }    
-    h2.cont2_Xd{
-        margin-top: 120px;
-        margin-left: 643px;
-    }    
+  h2.cont2_Ae {
+    margin-top: 140px;
+    margin-left: 45px;
+  }
+  h2.cont2_pr {
+    margin-top: 120px;
+    margin-left: 200px;
+  }
+  h2.cont2_Ai {
+    margin-top: 120px;
+    margin-left: 348px;
+  }
+  h2.cont2_Ps {
+    margin-top: 120px;
+    margin-left: 498px;
+  }
+  h2.cont2_Xd {
+    margin-top: 120px;
+    margin-left: 643px;
+  }
 
-    span.cont2_pr{
-        position: absolute;
-        margin-top: -160px;
-    }
-    span.cont2_Ai{
-        position: absolute;
-        margin-top: -160px;
-    }
-    span.cont2_Ps{
-        position: absolute;
-        margin-top: -160px;
-    }
-    span.cont2_Xd{
-        position: absolute;
-        margin-top: -160px;
-    }
+  span.cont2_pr {
+    position: absolute;
+    margin-top: -160px;
+  }
+  span.cont2_Ai {
+    position: absolute;
+    margin-top: -160px;
+  }
+  span.cont2_Ps {
+    position: absolute;
+    margin-top: -160px;
+  }
+  span.cont2_Xd {
+    position: absolute;
+    margin-top: -160px;
+  }
 
+  img.cont2_h {
+    width: 140px;
+    height: 70px;
+    position: absolute;
+    z-index: -1;
+    margin-left: 0px;
+    margin-top: -10px;
+  }
+  img.cont2_cs {
+    width: 140px;
+    height: 70px;
+    position: absolute;
+    z-index: -1;
+    margin-left: 150px;
+    margin-top: 28px;
+  }
+  img.cont2_j {
+    width: 140px;
+    height: 70px;
+    position: absolute;
+    z-index: -1;
+    margin-left: 300px;
+    margin-top: 28px;
+  }
+  img.cont2_p {
+    width: 140px;
+    height: 70px;
+    position: absolute;
+    z-index: -1;
+    margin-left: 450px;
+    margin-top: 28px;
+  }
+  img.cont2_s {
+    width: 140px;
+    height: 70px;
+    position: absolute;
+    z-index: -1;
+    margin-left: 600px;
+    margin-top: 28px;
+  }
 
-    img.cont2_h{
-        width:140px;
-        height:70px;
-        position: absolute;
-        z-index: -1;
-        margin-left:0px;
-        margin-top: -10px;
-    }
-    img.cont2_cs{
-        width:140px;
-        height:70px;
-        position: absolute;
-        z-index: -1;
-        margin-left:150px;
-        margin-top: 28px;
-    }
-    img.cont2_j{
-        width:140px;
-        height:70px;
-        position: absolute;
-        z-index: -1;
-        margin-left:300px;
-        margin-top: 28px;
-    }
-    img.cont2_p{
-        width:140px;
-        height:70px;
-        position: absolute;
-        z-index: -1;
-        margin-left:450px;
-        margin-top: 28px;
-    }
-    img.cont2_s{
-        width:140px;
-        height:70px;
-        position: absolute;
-        z-index: -1;
-        margin-left:600px;
-        margin-top: 28px;
-    }
+  div {
+    margin-top: -300px;
+  }
 
-    div{
-        margin-top:-300px;
-    }
-   
-    span.cont2_cs{
-        position: absolute;
-        margin-top: -40px;
-    }
-    span.cont2_j{
-        position: absolute;
-        margin-top: -40px;
-    }
-    span.cont2_p{
-        position: absolute;
-        margin-top: -40px;
-    }
-    span.cont2_s{
-        position: absolute;
-        margin-top: -40px;
-    }
+  span.cont2_cs {
+    position: absolute;
+    margin-top: -40px;
+  }
+  span.cont2_j {
+    position: absolute;
+    margin-top: -40px;
+  }
+  span.cont2_p {
+    position: absolute;
+    margin-top: -40px;
+  }
+  span.cont2_s {
+    position: absolute;
+    margin-top: -40px;
+  }
 
-    /* Container Three */
-    div.container_three{
-        scroll-snap-align: start ;
-        height: 400px;
-        animation-name: slide;
-        animation-duration: 5s;
-        animation-timing-function:ease-out;
-    }
+  /* Container Three */
+  div.container_three {
+    scroll-snap-align: start;
+    height: 400px;
+    animation-name: slide;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+  }
 
-    h1.cont3{
-        color: white;
-        font-size:500%;
-        font-family: 'Roboto Mono', monospace;
-        color: white;
-    }
+  h1.cont3 {
+    color: white;
+    font-size: 500%;
+    font-family: "Roboto Mono", monospace;
+    color: white;
+  }
 
-    img.cont3_bio{
-        position: absolute;
-        width: 300px;
-        height: 200px;
-        image-rendering: optimizeQuality;
-        transition: all 1s;
-    }
-    img.cont3_bio:hover{
-        filter:opacity(50%);
-        transition: all 1s;
-    }
+  img.cont3_bio {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    image-rendering: optimizeQuality;
+    transition: all 1s;
+  }
+  img.cont3_bio:hover {
+    filter: opacity(50%);
+    transition: all 1s;
+  }
 
-    h1.cont3_bio{
-        color: white;
-        font-family: 'Laila', sans-serif;
-        margin-left: 60px;
-        margin-top: 210px;
-    }
+  h1.cont3_bio {
+    color: white;
+    font-family: "Laila", sans-serif;
+    margin-left: 60px;
+    margin-top: 210px;
+  }
 
-    span.home{
-        margin-left:400px;
-        margin-top: 0px;
-    }
+  span.home {
+    margin-left: 400px;
+    margin-top: 0px;
+  }
 
-    img.cont3_home{
-        position: absolute;
-        width: 300px;
-        height: 200px;
-        image-rendering: optimizeQuality;
-        transition: all 1s;
-    }
-    img.cont3_home:hover{
-        filter:opacity(50%);
-        transition: all 1s;
-    }
+  img.cont3_home {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    image-rendering: optimizeQuality;
+    transition: all 1s;
+  }
+  img.cont3_home:hover {
+    filter: opacity(50%);
+    transition: all 1s;
+  }
 
-    h1.cont3_home{
-        color: white;
-        font-family: 'Laila', sans-serif;
-        margin-left:100px;
-        margin-top: 210px;
-    }
+  h1.cont3_home {
+    color: white;
+    font-family: "Laila", sans-serif;
+    margin-left: 100px;
+    margin-top: 210px;
+  }
 
-    /* Container Four */
-    div.container_four{
-        scroll-snap-align: start ;
-        height: 400px;
-        animation-name: slide;
-        animation-duration: 5s;
-        animation-timing-function:ease-out;
-    }
-    h1.cont4{
-        color: white;
-        font-size:500%;
-        font-family: 'Roboto Mono', monospace;
-        color: white;
-    }
+  /* Container Four */
+  div.container_four {
+    scroll-snap-align: start;
+    height: 400px;
+    animation-name: slide;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+  }
+  h1.cont4 {
+    color: white;
+    font-size: 500%;
+    font-family: "Roboto Mono", monospace;
+    color: white;
+  }
 
-    
+  /* FaceBook */
+  img.facebook {
+    margin-top: -11px;
+  }
+  h1.soc1 {
+    margin-left: 109px;
+    margin-top: 75px;
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: "Zen Tokyo Zoo", cursive;
+  }
+  /* Twitter */
+  img.twitter {
+    margin-top: 30px;
+  }
+  h1.soc2 {
+    margin-left: 109px;
+    margin-top: 65px;
+    color: white;
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: "Zen Tokyo Zoo", cursive;
+  }
+  /* Instagram */
+  img.instagram {
+    margin-top: 50px;
+  }
+  h1.soc3 {
+    margin-left: 109px;
+    margin-top: 100px;
+    color: white;
+    font-size: 35px;
+    font-weight: lighter;
+    font-family: "Zen Tokyo Zoo", cursive;
+    cursor: unset;
+  }
+  /* Youtube */
+  img.youtube {
+    margin-top: 50px;
+  }
+  h1.soc4 {
+    margin-left: 109px;
+    margin-top: 100px;
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: "Zen Tokyo Zoo", cursive;
+  }
 
-    /* FaceBook */
-    img.facebook{
-        margin-top: -11px;
-    }
-    h1.soc1{
-        margin-left:109px;
-        margin-top: 75px;
-        color:white;
-        font-size: 30px;
-        font-weight: lighter;
-        font-family: 'Zen Tokyo Zoo', cursive;
-    }
-    /* Twitter */
-    img.twitter{
-        margin-top: 30px;
-    }
-    h1.soc2{
-        margin-left:109px;
-        margin-top: 65px;
-        color:white;
-        font-size: 40px;
-        font-weight: lighter;
-        font-family: 'Zen Tokyo Zoo', cursive;
-    }
-    /* Instagram */
-    img.instagram{
-        margin-top: 50px;
-    }
-    h1.soc3{
-        margin-left:109px;
-        margin-top: 100px;
-        color:white;
-        font-size: 35px;
-        font-weight: lighter;
-        font-family: 'Zen Tokyo Zoo', cursive;
-        cursor: unset;
-    }
-    /* Youtube */
-    img.youtube{
-        margin-top: 50px;
-    }
-    h1.soc4{
-        margin-left:109px;
-        margin-top: 100px;
-        color:white;
-        font-size: 30px;
-        font-weight: lighter;
-        font-family: 'Zen Tokyo Zoo', cursive;
-    }
+  /* scroll bar style */
+  ::-webkit-scrollbar {
+    width: 20px;
+  }
 
-    /* scroll bar style */
-    ::-webkit-scrollbar {
-        width: 20px;
-    }
-    
-    /* Track */
-    ::-webkit-scrollbar-track {
-        box-shadow: inset 0 0 5px grey;
-        border-radius: 10px;
-    }
-    
-    /* Handle */
-    ::-webkit-scrollbar-thumb {
-        background: rgb(80, 18, 226);
-        border-radius: 10px;
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(80, 18, 226);
+    border-radius: 10px;
   }
 }
