@@ -293,12 +293,27 @@
 }
 /* For Desktop Uesers */
 @media only screen and (min-width: 771px) {
+  header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px ;
+  }
+  
+  a.head{
+    color: hotpink;
+
+  }
+
   body {
     scroll-behavior: smooth;
     background-color: BLACK;
-    opacity: 1;
-    transition: opacity(0, 1);
-    transition: all 25ms;
+    margin: 0;
+    padding: 0; 
   }
   a {
     text-decoration: none;
@@ -318,14 +333,14 @@
   hr {
     opacity: 0;
   }
-  @keyframes h {
+  /* @keyframes h {
     from {
       margin-left: 700px;
     }
     to {
       margin-left: 600px;
     }
-  }
+  } */
   h1.cont1 {
     animation-name: h;
     animation-duration: 3s;
@@ -341,12 +356,12 @@
     transition: ease-in-out;
     transition: all 0.5s;
   }
-  h1.cont1:hover {
+  /* h1.cont1:hover {
     transform: translateX(10px);
     opacity: 100%;
     transition: ease-in-out;
     transition: all 0.5s;
-  }
+  } */
 
   h2.cont1 {
     animation-name: h;
@@ -364,13 +379,13 @@
     transition: ease-in-out;
     transition: all 0.5s;
   }
-  h2.cont1:hover {
+  /* h2.cont1:hover {
     text-shadow: 1px 0.5px #b4b3b3;
     transform: translateX(10px);
     opacity: 1;
     transition: ease-in-out;
     transition: all 0.5s;
-  }
+  } */
   img.cont1 {
     width: 670px;
     height: 700px;
@@ -383,13 +398,13 @@
     transition: ease-in-out;
     transition: all 0.5s;
   }
-  img.cont1:hover {
+  /* img.cont1:hover {
     transform: translateX(-1px);
     opacity: 150%;
     transition: ease-in-out;
     transition: all 0.5s;
-  }
-  @keyframes img {
+  } */
+  /* @keyframes img {
     from {
       margin-left: 0px;
       opacity: 0;
@@ -401,7 +416,7 @@
       margin-left: 50px;
       opacity: 1;
     }
-  }
+  } */
 
   /* Container Two */
 
