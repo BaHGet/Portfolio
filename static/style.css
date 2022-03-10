@@ -18,6 +18,13 @@
     animation-duration: 1s;
     animation-timing-function: ease-out;
   }
+
+  header{
+    display:none;
+  }
+
+
+
   a {
     text-decoration: none;
   }
