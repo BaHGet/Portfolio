@@ -1,9 +1,5 @@
 /* For Mobile Uesers */
 @media only screen and (min-width: 100px) and (max-width: 770px) {
-  /* html {
-    width: 408px;
-  } */
-
   @keyframes slide {
     from {
       opacity: 0;
@@ -194,10 +190,7 @@
     position: absolute;
   }
 
-  /* Container Three */
-  div.container_three {
-    /* width: 500px; */
-  }
+
   h1.cont3 {
     color: white;
     font-family: "Roboto Mono", monospace;
@@ -395,25 +388,6 @@
     transition: ease-in-out;
     transition: all 0.5s;
   }
-  /* img.cont1:hover {
-    transform: translateX(-1px);
-    opacity: 150%;
-    transition: ease-in-out;
-    transition: all 0.5s;
-  } */
-  /* @keyframes img {
-    from {
-      margin-left: 0px;
-      opacity: 0;
-    }
-    50% {
-      opacity: 0.5;
-    }
-    to {
-      margin-left: 50px;
-      opacity: 1;
-    }
-  } */
 
   /* Container Two */
 
