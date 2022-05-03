@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Protfolio</title>
     <link rel="stylesheet" href="style.css">
-    <script href="script.js" ></script>
+    <script href="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -17,38 +20,19 @@
             <li><a href="#">Contact</a></li>
         </ul>
     </header>
-    <span>
-        <br><br>
-        <h1 id="layer1">Welcome to</h1>
-        <h1 id="layer2">Abdul Elrahman A.Bahget</h1>
-        <h1 id="layer3">Protfolio</h1>
-    </span>
-
-    <span >
     
-    </span>
-    <span >
-
-    </span>
-
-
-
+    <div id="layer1">
+        <h1>welcome</h1>
+    </div>
+    <div>
+        <h1 id="layer2">Abdul Elrahman A.Bahget</h1>
+    </div>
 
     <script>
-        let h1= document.getElementById('layer1');
-        let h2= document.getElementById('layer2');
-        let h3= document.getElementById('layer3');
-        window.addEventListener('scroll', function{
-            let value = window.scrollY;
-            h1.style.left = value * 0.25 + 'px'
-        })
-    console.log(h1,h2,h3);
+        let div1= document.getElementById('layer1');
+    console.log(div1);
+    
     </script>
-
-
-
-
-
 
 
 
@@ -60,7 +44,7 @@
             repellendus reiciendis voluptatibus ut sunt itaque.
         </p>
     </section>
-    <div>
+    <div id="la">
         <h1>Abdul Elrahman A.Bahget</h1>
         <p class="des">
             A seniro Frot-end devolpr<br>
