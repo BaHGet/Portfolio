@@ -1,5 +1,2 @@
-function main()
-{
-    const a= 11;
-    alert()
-}
+let h1= document.getElementsByid('layer1');
+console.log(h1);
