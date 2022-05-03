@@ -5,7 +5,7 @@ html{
 body{
     background: linear-gradient(-45deg, #eed752, #e73c7e, #23a6d5, #293df0);
 	background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
+    animation: gradient 15s cubic-bezier(0.65, 0.05, 0.36, 1) infinite;
     height: 100vh;
 }
 
