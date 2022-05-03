@@ -33,6 +33,6 @@ img{
     margin-top: 50px;    
     border-radius: 100%;
     opacity: 100%;
-    animation: example 2s;
+    animation: example 2s ease;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
