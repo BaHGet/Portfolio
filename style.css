@@ -1,0 +1,37 @@
+body{
+    background: linear-gradient(-45deg, #eed752, #e73c7e, #23a6d5, #293df0);
+	background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+@keyframes example{
+    from{opacity: 0%;margin-top: 0px;}
+    to{opacity: 100%;margin-top: 50px;}
+}
+
+img{
+    width:50%;
+    height:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;    
+    border-radius: 100%;
+    opacity: 100%;
+    animation: example 2s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
