@@ -226,7 +226,7 @@
     margin-top: -3px;
   }
   /* Container Four */
-  div.container_four {
+  div.social_media {
     position: absolute;
     margin-top: 98px;
     width: 50px;
@@ -307,8 +307,6 @@
   body {
     scroll-behavior: smooth;
     background-color: BLACK;
-    margin: 0;
-    padding: 0; 
   }
   a {
     text-decoration: none;
@@ -558,12 +556,8 @@
   }
 
   /* Container Three */
-  div.container_three {
+  div.work_container {
     scroll-snap-align: start;
-    height: 400px;
-    animation-name: slide;
-    animation-duration: 5s;
-    animation-timing-function: ease-out;
   }
 
   h1.cont3 {
@@ -616,13 +610,11 @@
     margin-top: 210px;
   }
 
-  /* Container Four */
-  div.container_four {
+  /* social_media */
+  div.social_media {
     scroll-snap-align: start;
-    height: 400px;
-    animation-name: slide;
-    animation-duration: 5s;
-    animation-timing-function: ease-out;
+    margin-top: 25px;
+
   }
   h1.cont4 {
     color: white;
