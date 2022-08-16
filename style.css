@@ -1,5 +1,12 @@
+body{
+    margin: 0px;
+}
+
+
+
+
 #navbar{
-    color: skyblue;
+    background-image: url('./Mata_Data/1219743.jpg');
     width: 100%;
     height: 50px;
 }
