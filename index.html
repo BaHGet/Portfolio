@@ -15,18 +15,35 @@
     </head>
     <body>
         <div id="app">
-            <menu>
+            <menu class="main-menu">
                 <div class="logo-ele nav-link" data-name="home">
                     <img id="logo-image" src="./Images/icon/icon.png">
                     <h1 id="logo-text">Abdulrahman</h1>
                     <h2 id="logo-text">Web Developer</h2>
                 </div>
                 <nav class="links">
+                    <span data-name="home" class="nav-link currentpage" href="">Home</span>
                     <span data-name="about" class="nav-link" href="">About</span>
                     <span data-name="work" class="nav-link" href="">Work</span>
                     <span data-name="contact" class="nav-link" href="">Contact me</span>
                 </nav>
             </menu>
+
+            <button class="query-one" type="button" onclick="handleShowMenu(event)"></button>
+            <menu class="overly">
+                <div class="logo-ele nav-link  mobile-menu" data-name="home">
+                    <img id="logo-image" src="./Images/icon/icon.png">
+                    <h1 id="logo-text">Abdulrahman</h1>
+                    <h2 id="logo-text">Web Developer</h2>
+                </div>
+                <nav class="links">
+                    <span data-name="home" class="nav-link currentpage" href="">Home</span>
+                    <span data-name="about" class="nav-link" href="">About</span>
+                    <span data-name="work" class="nav-link" href="">Work</span>
+                    <span data-name="contact" class="nav-link" href="">Contact me</span>
+                </nav>
+            </menu>
+
             <section id="home" class="main">
                 <h3 class="main-text">
                     Hi,<br>

@@ -10,7 +10,7 @@ body{
     margin:0;
     
 }
-
+/* For scroll properties */
 #app{
     margin: 0 0 0 0;
     width:100%;
@@ -18,7 +18,8 @@ body{
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
 }
-menu{
+/* navigation bars */
+.main-menu{
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -29,7 +30,65 @@ menu{
     height: 100%;
     background-color: #000;
     z-index: 999;
+    transition: width 0.3s;
 }
+
+.query-one{
+    position: fixed;
+    display: none;
+    top:0px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+
+    background-color:transparent;
+    background-image: url("https://pngimage.net/wp-content/uploads/2020/03/3-line-button-png-.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:80%;
+
+    border: none;
+    cursor: pointer;
+    padding: 70px 70px 0 0;
+    z-index: 9999;
+}
+
+.overly{
+    position: fixed;
+    width:100vw;
+    height: 100vh;
+    display: none;
+    transition: display 0.3s;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#1d1d1d;
+    padding: 0;
+    margin: 0;
+    z-index: 999;
+}
+
+.mobile-menu{
+    color: #fff !important;
+}
+.mobile-menu img{
+    width: 330px !important;
+}
+.mobile-menu h1{
+    font-size: 50px !important;
+}
+.mobile-menu h2{
+    font-size: 35px !important;
+}
+.overly .links{
+    margin: 0 0 0 0;
+
+}
+.overly .links .nav-link{
+    font-size: 35px !important;
+}
+
+/* logo style */
 .logo-ele{
     display: flex;
     flex-direction: column;
@@ -54,7 +113,7 @@ h2#logo-text{
     font-size: 10px;
     font-weight: lighter;
 }
-
+/* to section buttons */
 .links{
     display: flex;
     flex-direction: column;
@@ -79,13 +138,14 @@ h2#logo-text{
     cursor: pointer;
 }
 
+/* dynamic className for left links */
 .currentpage:not(.logo-ele){
     color: #08fdd8;
     background-color:#2e2d2d;
     cursor:not-allowed !important;
 }
 
-
+/* site sectiones */
 section{
     position: relative;
     width:93%;
@@ -93,7 +153,7 @@ section{
 
     background-image: url(./Images/Background/Dark-Background.png) !important;
     background-repeat:no-repeat;
-    background-size: 100%;
+    background-size: cover;
 
     /* margin: 0 0 0 7%; */
     margin: 0 0 0 7%;
@@ -119,11 +179,9 @@ section{
     margin: 0 0 0 5px;
 }
 
+/* First section */
 .main{
-    
-
     background-image: url(./Images/Background/Light-Background.png) !important;
-
 }
 .main-text, .sub-text{
     font-family: 'Arimo', sans-serif !important;
@@ -133,6 +191,7 @@ section{
     margin: 0;
     padding: 10% 0 0 64px;
 }
+/* custom A letter */
 .A-letter{
     color:#0dfdd4;
     font-style: normal;
@@ -152,7 +211,7 @@ section{
     padding: 10px 0 0 64px;
     /* margin: 0 0 0 166px !important; */
 }
-
+/* skills chart */
 .chart{
     margin: 6% 0 0 0;
 }
@@ -177,4 +236,67 @@ section{
     width:70%;
     height: 5px;
     margin-bottom: 2px;
+}
+
+
+@media screen and (max-width:1300px){
+    .main-menu{display: none;}
+    .query-one{display: flex;}
+    section, .main{
+        margin:0!important;
+        background-size:40 !important;
+        width: 100%!important;
+    }
+    .text{
+        font-size:30px !important;
+    }
+    .main-text{
+        font-size:70px !important;
+        padding: 167px 0 0 36px !important;
+    }
+    .sub-text{
+        font-size:50px !important;
+        padding: 60px 0 0 36px !important;
+    }
+}
+
+@media screen and (max-width:1100px){
+    section, .main{
+        margin:0!important;
+        background-size:80 !important;
+        background-position: bottom !important;
+        width: 100%!important;
+    }
+    .text{
+        font-size:25px !important;
+    }
+    .data-row{
+        padding: 0 0 0 43px !important;
+        margin: 0 0 40px 0 !important;
+    }
+}
+
+@media screen and (max-width:720px){
+    section, .main{
+        margin:0!important;
+        background-size:140% !important;
+        background-position-y: 274px !important;
+        background-position-x: -227px !important;
+        width: 100%!important;
+    }
+    .text{
+        font-size:20px !important;
+    }
+    .main-text{
+        font-size:70px !important;
+        padding: 167px 0 0 36px !important;
+    }
+    .sub-text{
+        font-size:50px !important;
+        padding: 60px 0 0 36px !important;
+    }
+    .data-row{
+        padding: 0 0 0 43px !important;
+        margin: 0 0 40px 0 !important;
+    }
 }
