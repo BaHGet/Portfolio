@@ -301,60 +301,7 @@ section{
     }
 }
 
-@media screen and (max-height:2400px) and (max-width:1080px){
-    section{
-        background-image: url(./Images/Background/Dark-Background-mobile.png) !important;
-        background-size:contain !important;
-        background-position-y:left !important;
-    }
-    .main{
-        background-image: url(./Images/Background/Dark-Background-mobile.png) !important;
-    }
-    .main-text{
-        font-size:120px !important;
-        padding: 575px 0 0 36px !important;
-    }
-    .sub-text{
-        font-size:95px !important;
-        padding: 60px 0 0 36px !important;
-    }
-    .overly{
-        flex-direction: column !important;
-        justify-content: center !important;
-    }
-    .heading{
-        font-size:120px !important;
-        padding:50px 0 0 0 !important;
-    }
-    .text{
-        font-size:50px !important;
-        font-weight: lighter !important;
-        text-align: center !important;
-    }
-    .chart{
-        margin: 30% 0 0 0 !important;
-    }
-    .data-name{
-        font-size:60px !important;
-    }
-    #logo-image{
-        width: 800px !important;
-    }
-    #logo-text{
-
-        font-size: 85px !important;
-
-    }
-    h2#logo-text{
-        font-size: 70px !important;
-
-    }
-    .nav-link{
-        font-size: 66px !important;
-    }
-}
-
-@media screen and (max-height:2400px) and (max-width:1500px){
+@media screen and (max-width:1500px){
     .main-menu{display: none;}
     .query-one{display: flex;}
     section{
@@ -369,7 +316,7 @@ section{
     }
     .main-text{
         font-size:120px !important;
-        padding: 575px 0 0 36px !important;
+        padding: 225px 0 0 36px !important;
     }
     .sub-text{
         font-size:95px !important;
@@ -380,33 +327,41 @@ section{
         justify-content: center !important;
     }
     .heading{
-        font-size:120px !important;
-        padding:50px 0 0 0 !important;
+        font-size:80px !important;
+        padding:0px 0 0 0 !important;
     }
     .text{
-        font-size:50px !important;
+        font-size:40px !important;
         font-weight: lighter !important;
         text-align: center !important;
     }
     .chart{
-        margin: 30% 0 0 0 !important;
+        margin: 0 0 0 0 !important;
     }
     .data-name{
-        font-size:60px !important;
+        font-size:20px !important;
     }
     #logo-image{
-        width: 800px !important;
+        width: 300px !important;
     }
     #logo-text{
-
-        font-size: 85px !important;
+        font-size: 35px !important;
 
     }
     h2#logo-text{
-        font-size: 70px !important;
-
+        font-size: 30px !important;
+    }
+    .links{
+        margin: 67px 0 0 0 !important;
     }
     .nav-link{
-        font-size: 66px !important;
+        font-size: 26px !important;
+        margin: 0px 0 0 0 !important;
     }
+}
+
+@media screen and (max-width:1040px){
+    .main-text{font-size: 80px !important;}
+    .sub-text{font-size: 70px !important;padding: 23px 0 0 36px !important;}
+    .text{font-size: 35px !important;}
 }

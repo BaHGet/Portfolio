@@ -29,3 +29,58 @@ function handleShowMenu(e) {
     }
 }
 
+
+/* 
+@media screen and (max-height:2400px) and (max-width:1080px){
+    section{
+        background-image: url(./Images/Background/Dark-Background-mobile.png) !important;
+        background-size:contain !important;
+        background-position-y:left !important;
+    }
+    .main{
+        background-image: url(./Images/Background/Dark-Background-mobile.png) !important;
+    }
+    .main-text{
+        font-size:120px !important;
+        padding: 575px 0 0 36px !important;
+    }
+    .sub-text{
+        font-size:95px !important;
+        padding: 60px 0 0 36px !important;
+    }
+    .overly{
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+    .heading{
+        font-size:120px !important;
+        padding:50px 0 0 0 !important;
+    }
+    .text{
+        font-size:50px !important;
+        font-weight: lighter !important;
+        text-align: center !important;
+    }
+    .chart{
+        margin: 30% 0 0 0 !important;
+    }
+    .data-name{
+        font-size:60px !important;
+    }
+    #logo-image{
+        width: 800px !important;
+    }
+    #logo-text{
+
+        font-size: 85px !important;
+
+    }
+    h2#logo-text{
+        font-size: 70px !important;
+
+    }
+    .nav-link{
+        font-size: 66px !important;
+    }
+}
+*/
