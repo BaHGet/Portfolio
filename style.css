@@ -301,6 +301,8 @@ section{
     }
 }
 
+
+
 @media screen and (max-width:1500px){
     .main-menu{display: none;}
     .query-one{display: flex;}
@@ -364,4 +366,29 @@ section{
     .main-text{font-size: 80px !important;}
     .sub-text{font-size: 70px !important;padding: 23px 0 0 36px !important;}
     .text{font-size: 35px !important;}
+}
+
+@media screen and (max-width:400px){
+    .main-text{font-size: 40px !important;padding: 330px 0 0 36px !important;}
+    .sub-text{font-size: 30px !important;padding: 23px 0 0 36px !important;}
+    .text{font-size: 20px !important;}
+    section{
+        background-image: url(./Images/Background/Dark-Background-mobile.png) !important;
+        background-size:contain !important;
+        background-position-y:-100px !important;
+        background-position-x:10px !important;
+    }
+    .main{
+        background-image: url(./Images/Background/Dark-Background-mobile.png) !important;
+        background-size:cover !important;
+        background-position-y:-100px !important;
+        background-position-x:10px !important;
+    }
+    .data-name{
+        font-size:18px !important;
+    }
+    .heading{
+        font-size:40px !important;
+        padding:0px 0 0 0 !important;
+    }
 }
