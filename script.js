@@ -29,7 +29,11 @@ function handleShowMenu(e) {
     }
 }
 window.onload = () =>{
-    alert(`width = ${window.innerWidth} , height=${window.innerHeight}`)
+    const textSection = document.querySelector("#home");
+    const text = document.createElement("h3");
+    text.classList.add("sub-text")
+    text.textContent = `width = ${window.innerWidth} , height=${window.innerHeight}`;
+    textSection.appendChild(text)
 }
 
 
