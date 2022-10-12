@@ -416,6 +416,18 @@ section{
     .chart{
         margin: 0px 0 0 0 !important;
     }
+    .mobile-menu img{
+        width: 130px !important;
+    }
+    .mobile-menu h1{
+        font-size: 50px !important;
+    }
+    .mobile-menu h2{
+        font-size: 40px !important;
+    }
+    .nav-link{
+        margin: 3px 0 0 0 !important;
+    }
 }
 
 
