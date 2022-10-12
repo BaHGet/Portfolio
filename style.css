@@ -59,8 +59,8 @@ body{
     height: 100vh;
     display: none;
     transition: display 0.3s;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column !important;
+    justify-content: space-evenly !important;
     align-items: center;
     background-color:#1d1d1d;
     padding: 0;
@@ -415,13 +415,6 @@ section{
     }
     .chart{
         margin: 0px 0 0 0 !important;
-    }
-}
-
-@media (max-width:1300px){
-    .overly{
-        flex-direction: column !important;
-        justify-content: space-evenly !important;
     }
 }
 
