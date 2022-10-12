@@ -318,7 +318,7 @@ section{
     }
 }
 
-@media  (min-width:1041px) and (max-width:1100px) {
+@media (max-width:1100px) and (min-width:1041px) {
     .main-menu{display: none;}
     .query-one{display: flex;}
     section, .main{
@@ -345,10 +345,6 @@ section{
     }
     .chart{
         margin: 323px 0 0 0 !important;
-    }
-    .overly{
-        flex-direction: column;
-        justify-content: space-evenly;
     }
 }
 
@@ -422,7 +418,12 @@ section{
     }
 }
 
-
+@media (max-width:1100px){
+    .overly{
+        flex-direction: column !important;
+        justify-content: space-evenly !important;
+    }
+}
 
 
 
