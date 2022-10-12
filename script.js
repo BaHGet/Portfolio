@@ -28,7 +28,7 @@ function handleShowMenu(e) {
         menu.style="display:none !important"
     }
 }
-
+alert(`width = ${window.innerWidth} , height=${window.innerHeight}`)
 
 /* 
 @media screen and (max-height:2400px) and (max-width:1080px){
