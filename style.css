@@ -28,7 +28,7 @@ body{
     padding: 0;
     width: 7%;
     height: 100%;
-    background-color: #000;
+    /* background-color: #000; */
     z-index: 999;
     transition: width 0.3s;
 }
@@ -136,6 +136,19 @@ h2#logo-text{
     color: #08fdd8;
     background-color:#474747;
     cursor: pointer;
+}
+
+/* style menu background */
+.background{
+    width:100%;
+    height:100%;
+    background: rgba(54, 54, 54, 0.15);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(8.2px);
+    z-index: -999;
+    position: absolute;
+    overflow: hidden;
 }
 
 /* dynamic className for left links */
