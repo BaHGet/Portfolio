@@ -17,6 +17,7 @@ body{
     height:100%;
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
+    transition-delay: 300ms;
 }
 /* navigation bars */
 .main-menu{
@@ -100,17 +101,17 @@ body{
     cursor: pointer;
 }
 #logo-image{
-    width: 100px;
+    width: 90%;
     margin: 11px 0 5px 0;
 }
 #logo-text{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 12px;
     margin: 3px 0 0 0;
 }
 h2#logo-text{
-    font-size: 10px;
+    font-size: 8px;
     font-weight: lighter;
 }
 /* to section buttons */
@@ -179,7 +180,7 @@ section{
 .text{
     font-family: 'Roboto', sans-serif !important;
     font-size: 50px !important;
-    overflow: hidden;
+    overflow:visible;
     text-overflow:ellipsis;
     white-space: pre-line;
 
@@ -230,25 +231,52 @@ section{
 }
 .data-row{
     display: flex;
-    padding: 0 0 0 140px;
+    padding: 0 0 0 50px;
     flex-direction: column;
     margin: 0 0 10px 0;
 }
 .data-name{
+    width:auto;
     font-family: 'Raleway', sans-serif;
     font-weight: lighter;
+    font-style: italic;
     margin: 0 0 10px 0;
 }
 .line{
     background-color: #ffffff;
-    width:90%;
-    height: 1.5px;
+    width:60%;
+    height: 2.5px;
     margin: 0;
 }
 .stats-line{
-    width:70%;
+    background-color: #ffffff;
     height: 5px;
     margin-bottom: 2px;
+    transform:scaleX(0);
+    transform-origin: left;
+    animation: filling 1s cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
+}
+
+#HTML>.stats-line{
+    width:95%;
+}
+#CSS{
+    width:80%;
+}
+#JS{
+    width:90%;
+}
+#REACT{
+    width:60%;
+}
+#BOOT{
+    width:80%;
+}
+
+@keyframes filling {
+    100%{
+        transform:scaleX(1);
+    }
 }
 
 @media (max-width:1500px) and (min-width:1301px){

@@ -2,17 +2,9 @@ const navLinks = [...document.querySelectorAll('.nav-link')];
 navLinks.map(link =>{
     link.addEventListener('click', () =>{
         const element = document.getElementById(link.getAttribute("data-name"));
-        const menu = document.querySelector(".overly")
-        menu.style.display="none";
+
     
         element.scrollIntoView({behavior:'smooth', block:'start'})
-        const oldEle = [...document.querySelectorAll(".currentpage")]
-        oldEle.map(el =>{
-            if(el){
-                el.classList.remove("currentpage")
-            }
-        })
-        link.classList.add("currentpage")
     })
 })
 
@@ -36,6 +28,14 @@ window.onload = () =>{
     textSection.appendChild(text)
 }
 
+document.addEventListener('mousemove', (e)=>{
+    navLinks.map(() =>{
+        /* const ele = document.querySelector(".currentpage")
+        ele.classList.remove('currentpage') */
+        
+        
+    })
+})
 
 /* 
 @media screen and (max-height:2400px) and (max-width:1080px){
