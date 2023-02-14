@@ -125,8 +125,9 @@ h2#logo-text{
     color: #909096;
     text-decoration:none;
     font-family:"Open Sans", sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
+    text-align:center;
     margin: 50px 0 0 0;
     padding: 15px;
     border: .5px  rgb(73, 73, 73);
@@ -244,32 +245,40 @@ section{
 }
 .line{
     background-color: #ffffff;
-    width:60%;
+    width:50%;
     height: 2.5px;
+    border-radius: 100px;
     margin: 0;
+    transform:scaleX(0);
+    transform-origin: left;
+    
 }
 .stats-line{
-    background-color: #ffffff;
-    height: 5px;
+    height: 9px;
+    border-radius: 100px;
     margin-bottom: 2px;
     transform:scaleX(0);
     transform-origin: left;
-    animation: filling 1s cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
 }
 
 #HTML>.stats-line{
+    background-color: #ff4800;
     width:95%;
 }
-#CSS{
+#CSS>.stats-line{
+    background-color: #296de4;
     width:80%;
 }
-#JS{
+#JS>.stats-line{
+    background-color: #f0db4f;
     width:90%;
 }
-#REACT{
+#REACT>.stats-line{
+    background-color: #61dbfb;
     width:60%;
 }
-#BOOT{
+#BOOT>.stats-line{
+    background-color: #6610f2;
     width:80%;
 }
 

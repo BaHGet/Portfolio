@@ -37,6 +37,18 @@ document.addEventListener('mousemove', (e)=>{
     })
 })
 
+let animateSection = document.querySelector('#about')
+animateSection.addEventListener('mousemove', ()=>{
+    let lines = [...document.querySelectorAll('.stats-line')]
+    let subLines = [...document.querySelectorAll('.line')]
+    for (let i = 0; i < lines.length; i++) {
+        lines[i].style.animation = 'filling 1s cubic-bezier(0.075, 0.82, 0.165, 1) forwards'
+        subLines[i].style.animation = 'filling 2s cubic-bezier(0.075, 0.82, 0.165, 1) forwards'
+        
+    }
+    
+})
+
 /* 
 @media screen and (max-height:2400px) and (max-width:1080px){
     section{
